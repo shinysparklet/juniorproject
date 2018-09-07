@@ -19,7 +19,7 @@ and open the template in the editor.
             <div class="row bg-primary txtstyle align-items-center">
                 <div class="col-3"><img src="src/phonebar.png" class="img-fluid">&nbsp;Телефон</div>
                 <div class="col-3"><img src="src/emailbar.png" class="img-fluid">&nbsp;Почта</div>
-                <div class="col-3"><img src="src/adressbar.png" class="img-fluid"> Адрес</div>
+                <div class="col-3"><img src="src/adressbar.png" class="img-fluid">&nbsp;Адрес</div>
                 <div class="col-3"><img src="src/termsbar.png" class="img-fluid">&nbsp;Условия доставки</div>
             </div></div>
         </div>
@@ -29,26 +29,23 @@ and open the template in the editor.
                 </div></div>
             <nav class="nav nav-fill">
             <form class="form-inline">
-                <!--не увеличивается ширина формы-->
                 <div class="form-group">
-                <input type="text" class="form-control bg-light border-white wf" id="inputDefault" placeholder="Начните поиск">
+                <input type="text" class="form-control bg-light border-white wf mb2" id="inputDefault" placeholder="Начните поиск">
+                <button type="submit" class="btn btn-primary wf2 mb">НАЙТИ</button>
                 </div>
-                <button type="submit" class="btn btn-primary wf2">НАЙТИ</button>
             </form>
-            <!-- Здесь при добавлении в класс списка justify-contend-end ничего не происхдит--> 
             <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                <a class="nav-link" href="#"><img src="src/cart.png" class="img-fluid">&nbsp;Корзина (2)</a>
+                <a class="nav-link fcol" href="#"><img src="src/cart.png" class="img-fluid">&nbsp;Корзина (2)</a>
             </li>
             <li class="nav-item">
-             <a class="nav-link" href="#"><img src="src/register.png" class="img-fluid">&nbsp;Регистрация</a>
+             <a class="nav-link fcol" href="#"><img src="src/register.png" class="img-fluid">&nbsp;Регистрация</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="src/enter.png" class="img-fluid">&nbsp;Вход</a>
+                <a class="nav-link fcol" href="#"><img src="src/enter.png" class="img-fluid">&nbsp;Вход</a>
             </li>  
             </nav>
-              <ul class="nav nav-fill">
-            <!-- Здесь цвет шрифта не меняется-->      
+              <ul class="nav nav-fill">     
                 <li class="nav-item">
                   <a class="nav-link category" href="#">
                       <img src="src/icon.png"><br />
@@ -113,16 +110,13 @@ and open the template in the editor.
             <div class="row"><div class="col-12">
                     <img src="src/actions.png" class="img-fluid"> 
                 </div></div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white" aria-label="Actions navigation">
-        <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">&lt;</a></li>
-        <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
-        </ul> 
-         <button type="button" class="btn btn-primary ml-auto p-2">ПОДРОБНЕЕ</button></nav>
-        <!-- Кнопки ниже по 180px не делаются--> 
-        <button type="button" class="btn btn-outline-info btn-sm">Акции</button>
-        <button type="button" class="btn btn-outline-danger btn-sm">Популярное</button>
-        <button type="button" class="btn btn-warning btn-sm">Лучшее предложение</button>
+            <div class="mb5">
+          <button type="button" class="btn btn-primary disabled">&lang;</button>  
+          <button type="button" class="btn btn-primary">&rang;</button> 
+         <button type="button" class="btn btn-primary itempos mb4">ПОДРОБНЕЕ</button></div>
+        <button type="button" class="btn btn-outline-info btn-sm mb3">Акции</button>
+        <button type="button" class="btn btn-outline-danger btn-sm mb3">Популярное</button>
+        <button type="button" class="btn btn-warning btn-sm mb3">Лучшее предложение</button>
         <div class="card-deck sim">
             <div class="card border-white">
         <img class="card-img" src="src/product1.png">

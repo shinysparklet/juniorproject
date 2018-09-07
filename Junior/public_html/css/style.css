@@ -14,6 +14,7 @@ and open the template in the editor.
     padding: 10px;
     margin-bottom: 30px;
     margin-top: 5px;
+    color: #343a40;
 }
 
 .category:hover{
@@ -54,9 +55,6 @@ and open the template in the editor.
     padding-bottom: 30px;
 }
 
-.fcol{
-    color: #888;
-}
 
 .wf{
   border-top-right-radius: 0 !important;
@@ -66,4 +64,42 @@ and open the template in the editor.
 .wf2{
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
+}
+
+.mb{
+    max-width: 160px !important;
+    width: 160px !important;
+    margin-right: 95px;
+}
+
+.mb2{
+    max-width: 460px !important;
+    width: 460px !important;
+}
+
+.mb3{
+    max-width: 180px !important;
+    width: 180px !important;
+}
+
+.jce{
+    text-align: right !important;
+}
+
+h5{
+    color: #343a40 !important;
+}
+
+.fcol{
+    color: #5a5a5a !important;
+}
+
+.mb4{
+    max-width: 160px !important;
+    width: 160px !important;
+}
+
+.mb5{
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
 }
