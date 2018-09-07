@@ -11,6 +11,9 @@ and open the template in the editor.
     background-color: ghostwhite;
     margin-left: 5px;
     margin-right: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .category:hover{
@@ -19,6 +22,35 @@ and open the template in the editor.
     box-shadow: 3px 4px 10px -1px rgba(220,220,220,1);
 }
 
-td {
-    height: 10px;
+.txtstyle{
+    color: white;
+    line-height: 1;
+    min-height: 35px;
+    height: 35px;
 }
+
+.itempos{
+    float: right;
+}
+
+.sim{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fintext{
+    text-align: center;
+    color: white;
+}
+
+.txtstyle2{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.txtstyle3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
