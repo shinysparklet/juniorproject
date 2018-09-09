@@ -31,7 +31,7 @@ and open the template in the editor.
 }
 
 .itempos{
-    float: right;
+    float: right !important;
 }
 
 .sim{
@@ -102,4 +102,20 @@ h5{
 .mb5{
     margin-top: 10px !important;
     margin-bottom: 30px !important;
+}
+
+.mlm{
+    padding-left: 95px !important;
+}
+
+.sale{
+    color: white !important;
+    max-width: 100px !important;
+    width: 100px !important;
+    max-height: 30px !important;
+    height: 30px !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    font-size: 1.4rem !important;
+    text-align: center;
 }
