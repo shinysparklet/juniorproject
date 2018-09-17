@@ -70,6 +70,8 @@ and open the template in the editor.
     max-width: 160px !important;
     width: 160px !important;
     margin-right: 95px;
+    max-height: 38px !important;
+    height: 38px !important;
 }
 
 .mb2{
@@ -97,6 +99,8 @@ h5{
 .mb4{
     max-width: 160px !important;
     width: 160px !important;
+    max-height: 38px !important;
+    height: 38px !important;
 }
 
 .mb5{
@@ -118,4 +122,153 @@ h5{
     z-index: 1 !important;
     font-size: 1.4rem !important;
     text-align: center;
+}
+
+
+h5 span{
+    color: #56CC9D !important;
+}
+
+.kat{
+  font-weight: 500;
+  line-height: 1.2;
+  color: #78C2AD;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 50px;
+}
+
+.st{
+    padding-top: 30px;
+    padding-bottom: 60px;  
+}
+
+.fs{
+    font-size: 0.75rem !important;
+}
+
+.cd{
+    max-height: 80px !important;
+    height: 80px !important;
+    line-height: 1.2;
+    padding-top: 5px !important;
+    padding-left: 10px !important;
+    margin-bottom: 60px !important;
+}
+
+.cd2{
+    margin-top: -10px !important;
+}
+
+.carind{
+    max-width: 100px !important;
+    width: 100px !important;
+}
+
+.carind2{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: -35px !important;
+}
+
+.carb{
+    margin-top: 25px !important;
+}
+
+.carn{
+    margin-top: 40px !important;
+}
+
+.fcol2{
+    color: #343a40 !important;
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+}
+
+h4 span{
+    color: #56CC9D !important;
+}
+
+.fcol3{
+    color: #343a40 !important;
+}
+
+.badge:empty {
+  display: inline-block !important;
+}
+
+p span{
+   color: #56CC9D !important;
+   float: right;
+}
+
+.fcol4{
+    color: #56CC9D !important;
+}
+
+.divs{
+    padding-top: 15px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 5px !important;
+}
+
+.naim{
+    position: absolute !important;
+    z-index: 1 !important;
+}
+
+.an{
+     letter-spacing: -1px !important;
+}
+
+.ts{
+    margin-top: 40px !important;
+    margin-left: 20px !important;
+}
+
+.ts2{
+    margin-top: 25px !important;
+}
+
+.ts3{
+    margin-bottom: -1px !important;
+}
+
+.ts4{
+    margin-right: 3px !important;
+    margin-top: 3px !important;
+}
+
+.ts5{
+    margin-top: 91px !important;
+    margin-left: 20px !important;
+}
+
+.ts6{
+    margin-bottom: 6px !important;
+}
+
+.mb9{
+    max-width: 175px !important;
+    width: 175px !important;
+    margin-top: 60px !important;
+    margin-right: 2px !important;
+    margin-bottom: 15px !important;
+}
+
+.ts7{
+    padding-left: 20px !important;
+    padding-top: 14px !important;
+}
+
+.fs2{
+    color: white;
+    margin-bottom: 0 !important;
+    padding-bottom: 14px !important;
+}
+
+.lt{
+    margin-bottom: 20px !important;
 }
