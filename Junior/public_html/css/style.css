@@ -272,3 +272,44 @@ p span{
 .lt{
     margin-bottom: 20px !important;
 }
+
+.m1{
+    margin-top: 50px !important;
+}
+
+.m2{
+    margin-bottom: 50px !important;
+}
+
+.fcol5{
+    color: #78C2AD !important;
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
+}
+
+.mb10{
+    max-width: 590px !important;
+    width: 590px !important;
+}
+
+.mb11{
+    max-width: 290px !important;
+    width: 290px !important;
+}
+
+.m3{
+    margin-right: 10px !important;
+}
+
+.mb12{
+    max-width: 100px !important;
+    width: 100px !important;
+}
+
+.m4{
+    margin-left: 30px !important;
+}
+
+.b1{
+    border-top: 1px solid #78C2AD;
+}
