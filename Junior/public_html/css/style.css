@@ -11,10 +11,16 @@ and open the template in the editor.
     background-color: ghostwhite;
     margin-left: 5px;
     margin-right: 5px;
-    padding: 10px;
     margin-bottom: 30px;
     margin-top: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
     color: #343a40;
+    border-radius: 0.4rem !important;
+    max-height: 110px !important;
+    height: 110px !important;
 }
 
 .category:hover{
@@ -129,15 +135,6 @@ h5 span{
     color: #56CC9D !important;
 }
 
-.kat{
-  font-weight: 500;
-  line-height: 1.2;
-  color: #78C2AD;
-  font-size: 1.5rem;
-  text-align: right;
-  padding-top: 5px;
-  margin-right: 39px;
-}
 
 .st{
     padding-top: 30px;
@@ -331,4 +328,7 @@ p span{
 
 .formpos{
     left: -113px !important;
+}
+.m6{
+    margin-left: 419px !important;
 }
