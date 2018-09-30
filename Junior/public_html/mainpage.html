@@ -11,7 +11,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrapcss.css" type="text/css"/>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-
     </head>
     <body>
         <div class="bg-primary container-fluid">
@@ -35,15 +34,60 @@ and open the template in the editor.
                 </div>
             </form>
             <ul class="nav">
-                <li class="nav-item">
-                <a class="nav-link fcol" href="#"><img src="src/cart.png" class="img-fluid">&nbsp;Корзина (2)</a>
+                <li class="nav-item dropdown">
+                <a class="nav-link fcol" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><img src="src/cart.png" class="img-fluid">&nbsp;Корзина (2)</a>
+                <div class="dropdown-menu pad2 fcol3" aria-labelledby="dropdownMenuLink">
+                    <div class="row">
+                        <div class="col mar1">
+                            <img src="src/mini.png" class="img-fluid">
+                        </div>
+                        <div class="col">
+                         <div class="form-group">
+                         <input type="number" class="form-control form-control-sm mb20" id="inputNum" placeholder="1">
+                         </div>
+                        </div>
+                        <div class="col mar2">
+                           500&#8381;
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mar1">
+                            <img src="src/mini2.png" class="img-fluid">
+                        </div>
+                        <div class="col">
+                         <div class="form-group">
+                         <input type="number" class="form-control form-control-sm mb20" id="inputNum" placeholder="1">
+                         </div>
+                        </div>
+                        <div class="col mar2">
+                           500&#8381;
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mar1">
+                            <img src="src/mini3.png" class="img-fluid">
+                        </div>
+                        <div class="col">
+                         <div class="form-group">
+                         <input type="number" class="form-control form-control-sm mb20" id="inputNum" placeholder="1">
+                         </div>
+                        </div>
+                        <div class="col mar2">
+                           500&#8381;
+                        </div>
+                    </div>
+                    <div class="row  align-items-center">
+                        <div class="col">Итого</div>
+                        <div class="col">1500&#8381;</div>
+                    </div>
+             </div>
             </li>
             <li class="nav-item">
              <a class="nav-link fcol" href="formreg.html"><img src="src/register.png" class="img-fluid">&nbsp;Регистрация</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link fcol dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><img src="src/enter.png" class="img-fluid">&nbsp;Вход</a>
-            <form class="dropdown-menu pad1 formpos" aria-labelledby="dropdownMenuLink">
+                <a class="nav-link fcol" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><img src="src/enter.png" class="img-fluid">&nbsp;Вход</a>
+            <form class="dropdown-menu pad1 formpos" aria-labelledby="dropdownMenuLink2">
              <div class="form-group">
                  <input type="email" class="form-control mb13" id="DropdownFormEmail" placeholder="Введите Email">
             </div>

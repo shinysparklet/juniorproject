@@ -75,7 +75,7 @@ and open the template in the editor.
 .mb{
     max-width: 160px !important;
     width: 160px !important;
-    margin-right: 84px;
+    margin-right: 98px;
     max-height: 38px !important;
     height: 38px !important;
 }
@@ -330,5 +330,24 @@ p span{
     left: -113px !important;
 }
 .m6{
-    margin-left: 419px !important;
+    margin-left: 433px !important;
+}
+
+.mb20{
+    max-width: 30px !important;
+    width: 30px !important;
+    padding: 2px !important;
+}
+
+.pad2{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.mar1{
+    margin-right: -10px !important;
+}
+
+.mar2{
+    margin-left: -10px !important;
 }
