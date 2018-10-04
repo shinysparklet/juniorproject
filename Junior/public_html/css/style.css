@@ -351,3 +351,18 @@ p span{
 .mar2{
     margin-left: -10px !important;
 }
+
+.f1{
+    max-width: 90px !important;
+    width: 90px !important;
+}
+
+.pad3{
+    padding-left: 20px !important;
+    padding-right: 5px !important;
+}
+
+.filters{
+    position: absolute !important;
+    z-index: 1 !important;
+}
